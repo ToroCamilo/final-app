@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug {
+  border: 1px solid red;
+}
+
+.nav {
+  @apply flex justify-around bg-amber-400 text-lg font-bold;
+}
+
+.nav > li{
+  @apply hover:bg-gray-200 p-4 w-full text-center rounded-lg m-1;
+}
+
+.slidebar {
+  
+}
