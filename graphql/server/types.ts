@@ -4,6 +4,8 @@ export const typeDefs = gql`
     type Usuario {
         nombre_usuario:String
         password:String
+        nombre:String
+        apellido:String
     }
 
     type Query {

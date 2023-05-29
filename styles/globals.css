@@ -21,3 +21,15 @@
 .bttint {
   @apply border-4 p-2 px-7  rounded-full border-transparent	 bg-lime-600	text-white;
 }
+
+form {
+  @apply flex flex-col gap-4 text-center;
+}
+
+form > label {
+  @apply flex flex-col gap-3;
+}
+
+form > label > span {
+  @apply font-bold text-lg;
+}
