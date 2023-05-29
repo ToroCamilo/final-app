@@ -14,6 +14,10 @@
   @apply hover:bg-gray-200 p-4 w-full text-center rounded-lg m-1;
 }
 
-.slidebar {
-  
+.int {
+  @apply border-4 p-3 rounded-full border-green-200 text-center;
+}
+
+.bttint {
+  @apply border-4 p-2 px-7  rounded-full border-transparent	 bg-lime-600	text-white;
 }

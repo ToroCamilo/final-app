@@ -6,7 +6,13 @@ const Productos = () => {
   return (
     <div className="p-10 flex gap-10">
         {data.Productos.map((producto) => {
-            return <Card nombre={producto.nombre} descripcion={producto.descripcion} precio={producto.Precio}/>
+            return (
+            <Card 
+              key={producto} 
+              nombre={producto.nombre} 
+              descripcion={producto.descripcion} 
+              precio={producto.Precio}/>
+            )
         })}
     </div>
   );
